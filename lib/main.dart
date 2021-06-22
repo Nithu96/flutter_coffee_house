@@ -1,3 +1,4 @@
+import 'package:coffee_house/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // home: MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
+      home: DashboardPage(),
     );
   }
 }
