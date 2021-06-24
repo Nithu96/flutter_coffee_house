@@ -5,8 +5,6 @@ import 'package:coffee_house/screens/gold_brew.dart';
 import 'package:coffee_house/screens/mccafe.dart';
 import 'package:coffee_house/screens/nescafe.dart';
 import 'package:flutter/material.dart';
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -46,8 +44,8 @@ class _DashboardPageState extends State<DashboardPage> {
                   width: screenWidth - (screenWidth / 5),
                   color: Colors.white,
                 )),
-            Positioned(top: 35.0, left: 20.0, child: Icon(Feather.menu)),
-            Positioned(top: 35.0, right: 20.0, child: Icon(Feather.shopping_bag)),
+            Positioned(top: 45.0, left: 31.0, child: Icon(Icons.menu)),
+            Positioned(top: 45.0, right: 20.0, child: Icon(Icons.shopping_bag)),
             Positioned(
                 top: screenHeight - (screenHeight - 100.0),
                 left: (screenWidth / 5) + 25.0,

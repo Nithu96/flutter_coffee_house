@@ -1,7 +1,5 @@
 import 'package:coffee_house/constants/color_plette.dart';
 import 'package:flutter/material.dart';
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CoffeeDetails extends StatefulWidget {
@@ -73,17 +71,17 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
               )
           ),
           Positioned(
-              top: 35.0,
+              top: 45.0,
               left: 20.0,
               child: Icon(
                 Icons.arrow_back_ios,
                 color: Colors.white,
               )),
           Positioned(
-              top: 35.0,
+              top: 45.0,
               right: 20.0,
               child: Icon(
-                Feather.shopping_bag,
+                Icons.shopping_bag,
                 color: Colors.white,
               )),
           Positioned(
@@ -115,7 +113,7 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                         Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Icon(Feather.user),
+                              Icon(Icons.verified_user),
                               SizedBox(width: 10.0),
                               Text(
                                 '1.5k',
@@ -130,7 +128,7 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                               ),
                               SizedBox(width: 15.0),
                               //Repeat the same block as above
-                              Icon(Feather.star),
+                              Icon(Icons.star),
                               SizedBox(width: 15.0),
                               Text(
                                 '4.0',
@@ -144,7 +142,8 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                                 color: Colors.grey,
                               ),
                               SizedBox(width: 15.0),
-                              Icon(Feather.anchor),
+                              Icon(
+                                  Icons.anchor),
                               SizedBox(width: 15.0),
                               Text(
                                 'No. 1',
@@ -195,7 +194,7 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                         children: [
                           Container(
                               height: 50.0,
-                              width: 225.0,
+                              width: 255.0,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10.0),
                                   color: ColorPalette().buttonColor
@@ -207,7 +206,7 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                                   )
                               )
                           ),
-                          SizedBox(width: 25.0),
+                          SizedBox(width: 45.0),
                           Container(
                               height: 50.0,
                               width: 50.0,
@@ -219,7 +218,7 @@ class _CoffeeDetailsState extends State<CoffeeDetails> {
                                   )
                               ),
                               child: Center(
-                                  child: Icon(Feather.bookmark, size:17.0)
+                                  child: Icon(Icons.bookmark, size:17.0)
                               )
                           )
                         ]
